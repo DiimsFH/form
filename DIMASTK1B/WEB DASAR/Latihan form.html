@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan List</title>
+		<meta name = "author" content="Dimas Fachri Husaini">	
+	</head>
+	<body>
+		<table  width = "100%">
+			<tr>
+				<td width = "50%">
+					<fieldset>
+						<legend>Data Pribadi</legend>
+							<table>
+								<tr>
+									<td ><label>Nama Lengkap</label></td>
+									<td> :</td> 
+									<td><input placeholder = "Nama Lengkap" type="text" name="nim" required></td>
+								</tr>
+								
+								<tr>
+									<td><label>Email</label></td>
+									<td> :</td> 
+									<td><input type="email" name="email" required></td>
+								</tr>
+								
+								<tr>
+									<td><label>Nomor Telepon</label></td>
+									<td> :</td> 
+									<td><input type="tel" name="telepon" required></td>
+								</tr>
+								
+								<tr>
+									<td><label>Alamat Lengkap</label></td>
+									<td valign = "middle">:</td>
+									<td><textarea name = "alamat" rows = "7" cols = "30"></textarea></td>
+								</tr>
+								
+								<tr>
+									<td><label>Tanggal Lahir </label></td>
+									<td> :</td> 
+									<td><input type="date" name="tanggal-lahir" required> </td>
+								</tr>
+								
+								<tr>
+									<td><label>Jenis Kelamin </label></td>
+									<td> :</td> 
+									<td><input type="radio" name="jk" value="M"> Laki-Laki
+										<input type="radio" name="jk" value="WM"> Perempuan</td>
+								</tr>
+								
+								<tr>
+									<td><label value = "">Agama</label></td>
+									<td>:</td>
+									<td><select name ="agama" required>
+										<option>Kristen</option>
+										<option>Japan</option>
+										<option>Indonesia</option>
+										<option>Thailand</option>
+										<option>Philipines</option>
+										<option>Qatar</option>
+									</select></td>
+								</tr>
+								
+							</table>
+					</fieldset>
+				</td>
+				<td>
+					<fieldset>
+						<legend>Data Orang Tua</legend>
+						<table>
+							<tr>
+								<td><label>Nama Ayah </label></td>
+								<td> :</td> 
+								<td><input type="text" name="ayah" required></td>
+							</tr>	
+							
+							<tr>
+								<td >
+								<input type="submit" value="Submit">
+								<input type="reset" value="Reset">
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

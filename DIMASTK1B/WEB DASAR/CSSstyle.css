@@ -1,0 +1,33 @@
+	
+	
+	
+	
+	body{
+		 font-family: "Pixelify Sans", sans-serif;
+		 font-size:24px;
+		}
+	.head{									
+		background-color:black;
+		padding:30px;
+		}
+	.main{									
+		background-color:maroon;
+		height:300px;	
+		width:80%;
+		float:left;
+			}
+	.sidebar{									
+		background-color:grey;	
+		width:20%;
+		height:300px;
+		float:left;
+			}
+	.footer{									
+		background-color:blue;	
+		padding:15px;
+		clear:both;
+		}
+	.white-center{
+		color:white;
+		text-align:center;
+		}
